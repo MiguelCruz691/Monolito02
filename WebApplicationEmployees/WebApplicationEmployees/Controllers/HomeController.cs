@@ -20,6 +20,7 @@ namespace WebApplicationEmployees.Controllers
 
         public IActionResult Index()
         {
+            //IEnumerable<Employee> colEmployees = _logger.Employees.ToList();
             return View();
         }
 
